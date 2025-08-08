@@ -6,13 +6,13 @@
 </head>
 <body>
   <h2>登入 MUSE 系統</h2>
-  <input type="062149591" id="pw" placeholder="請輸入密碼" />
+  <input type="password" id="pw" placeholder="請輸入密碼" />
   <button onclick="login()">登入</button>
 
   <script>
     function login() {
       const pw = document.getElementById('pw').value;
-      if (pw === "muse2025") {
+      if (pw === "062149591") {
         window.location.href = "https://www.appsheet.com/start/3146928d-1b1d-4d90-b0ef-85e7ccac5263";
       } else {
         alert("密碼錯誤！");
